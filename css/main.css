@@ -58,11 +58,17 @@ header ul li {
   display: inline-flex;
 }
 header ul li a {
-  display: block;
+  display: flex;
   padding: 0 1rem;
   text-decoration: none;
   color: var(--color4);
   align-items: center;
+  justify-content: center;
+}
+header ul li a img {
+  margin-right: 0.5rem;
+  height: 2.5rem;
+  width: auto;
 }
 header ul li a:hover,svg:hover {
   color: var(--color5);
