@@ -191,8 +191,14 @@ main section {
   font-weight: lighter;
   color: var(--color2);
 }
+
+.main-projects figure {
+  height: 200px;
+  width: 320px;
+}
+
 .main-projects img {
-  width: fit-content;
+  width: inherit;
   border-radius: 2rem;
 }
 .main-projects .buttons-description {
